@@ -23,9 +23,9 @@
 		<tomcat.plugin.servion>2.2</tomcat.plugin.servion>
 		<javaee-api.version>7.0</javaee-api.version>
 		<jstl.version>1.2</jstl.version>
-		<jdk.version>1.7</jdk.version>
+		<jdk.version>1.8</jdk.version>
 		<hibernate.version>4.3.7.Final</hibernate.version>
-		
+
 		<!-- maven plugin version -->
 		<maven-compiler-plugin.version>3.2</maven-compiler-plugin.version>
 		<maven-war-plugin.version>2.5</maven-war-plugin.version>
@@ -74,6 +74,11 @@
 			<dependency>
 				<groupId>org.primefaces.extensions</groupId>
 				<artifactId>primefaces-extensions</artifactId>
+				<version>${primface-extension.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.primefaces.extensions</groupId>
+				<artifactId>resources-ckeditor</artifactId>
 				<version>${primface-extension.version}</version>
 			</dependency>
 			<dependency>
