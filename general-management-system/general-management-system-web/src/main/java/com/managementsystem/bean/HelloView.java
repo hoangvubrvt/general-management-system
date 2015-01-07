@@ -19,11 +19,6 @@ public class HelloView {
 
 	@PostConstruct
 	public void init() {
-		Customer customer = new Customer();
-		customer.setAddress("Truong chinh");
-		customer.setCustomerName("hoang vu");
-		customer.setPhoneNumber("0986817511");
-		userService.saveOrUpdate(customer);
 		this.customer = userService.findById(1L);
 	}
 
