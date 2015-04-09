@@ -1,0 +1,1 @@
+this project will manage product of a shop or restaurant and revenues of shop's business.
